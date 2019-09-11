@@ -1,0 +1,40 @@
+     1	Sep 10 17:09:14 lukasz-VirtualBox rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="465" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+     2	Sep 10 17:09:18 lukasz-VirtualBox anacron[2376]: Job `cron.daily' terminated
+     3	Sep 10 17:09:18 lukasz-VirtualBox anacron[2376]: Normal exit (1 job run)
+     4	Sep 10 17:17:01 lukasz-VirtualBox CRON[3313]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+     5	Sep 10 17:18:53 lukasz-VirtualBox gnome-shell[1251]: Object .Gjs_AppIndicatorIconActor__1 (0x55e2c341ba40), has been already finalized. Impossible to set any property to it.
+     6	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: == Stack trace for context 0x55e2bf62d330 ==
+     7	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #0 0x7ffc3cf6f1a0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7ff2505b5de0 @ 87)
+     8	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #1 0x55e2bfa3f300 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7ff2300bdef0 @ 58)
+     9	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #2 0x7ffc3cf70500 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7ff2505b5de0 @ 71)
+    10	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #3 0x7ffc3cf705c0 b   self-hosted:916 (0x7ff2505f12b8 @ 367)
+    11	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #4 0x7ffc3cf706b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7ff2505d2230 @ 386)
+    12	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #5 0x55e2bfa3f278 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7ff2300abbc0 @ 22)
+    13	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #6 0x7ffc3cf71a10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7ff2505b5de0 @ 71)
+    14	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #7 0x55e2bfa3f1d0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7ff2300ab230 @ 225)
+    15	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #8 0x7ffc3cf72d70 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7ff2505b5de0 @ 71)
+    16	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #9 0x55e2bfa3f158 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7ff23009e3c8 @ 37)
+    17	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #10 0x55e2bfa3f098 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7ff2504592b8 @ 441)
+    18	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #11 0x55e2bfa3f018 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7ff250459d58 @ 13)
+    19	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #12 0x7ffc3cf73ae0 b   self-hosted:251 (0x7ff2505c4ab0 @ 223)
+    20	Sep 10 17:18:53 lukasz-VirtualBox org.gnome.Shell.desktop[1251]: #13 0x55e2bfa3ef98 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7ff250459cd0 @ 64)
+1	Sep1017:09:14lukasz-VirtualBoxrsyslogd:[originsoftware="rsyslogd"swVersion="8.32.0"x-pid="465"x-info="http://www.rsyslog.com"]rsyslogdwasHUPed
+2	Sep1017:09:18lukasz-VirtualBoxanacron[2376]:Job`cron.daily'terminated
+3	Sep1017:09:18lukasz-VirtualBoxanacron[2376]:Normalexit(1jobrun)
+4	Sep1017:17:01lukasz-VirtualBoxCRON[3313]:(root)CMD(cd/&&run-parts--report/etc/cron.hourly)
+5	Sep1017:18:53lukasz-VirtualBoxgnome-shell[1251]:Object.Gjs_AppIndicatorIconActor__1(0x55e2c341ba40),hasbeenalreadyfinalized.Impossibletosetanypropertytoit.
+6	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:==Stacktraceforcontext0x55e2bf62d330==
+7	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#00x7ffc3cf6f1a0bresource:///org/gnome/gjs/modules/_legacy.js:83(0x7ff2505b5de0@87)
+8	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#10x55e2bfa3f300i/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93(0x7ff2300bdef0@58)
+9	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#20x7ffc3cf70500bresource:///org/gnome/gjs/modules/_legacy.js:82(0x7ff2505b5de0@71)
+10	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#30x7ffc3cf705c0bself-hosted:916(0x7ff2505f12b8@367)
+11	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#40x7ffc3cf706b0bresource:///org/gnome/gjs/modules/signals.js:128(0x7ff2505d2230@386)
+12	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#50x55e2bfa3f278i/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190(0x7ff2300abbc0@22)
+13	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#60x7ffc3cf71a10bresource:///org/gnome/gjs/modules/_legacy.js:82(0x7ff2505b5de0@71)
+14	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#70x55e2bfa3f1d0i/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219(0x7ff2300ab230@225)
+15	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#80x7ffc3cf72d70bresource:///org/gnome/gjs/modules/_legacy.js:82(0x7ff2505b5de0@71)
+16	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#90x55e2bfa3f158i/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61(0x7ff23009e3c8@37)
+17	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#100x55e2bfa3f098iresource:///org/gnome/shell/ui/extensionSystem.js:83(0x7ff2504592b8@441)
+18	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#110x55e2bfa3f018iresource:///org/gnome/shell/ui/extensionSystem.js:354(0x7ff250459d58@13)
+19	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#120x7ffc3cf73ae0bself-hosted:251(0x7ff2505c4ab0@223)
+20	Sep1017:18:53lukasz-VirtualBoxorg.gnome.Shell.desktop[1251]:#130x55e2bfa3ef98iresource:///org/gnome/shell/ui/extensionSystem.js:353(0x7ff250459cd0@64)
